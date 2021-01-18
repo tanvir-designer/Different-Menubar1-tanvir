@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.menubar {
+    padding: 20px 0;
+    border-bottom: 1px solid #0093c7;
+}
+.menubar ul {
+    text-align: center;
+}
+.menubar ul li {
+    display: inline-block;
+    padding: 10px 0px;
+    transition: all .3s linear;
+    /* border-bottom: 2px solid transparent; */
+    margin: 0 15px;
+}
+.menubar ul li:hover{
+    border-bottom: 2px solid #0093c7;
+    transition: all .3s linear;
+}
+.menubar li a {
+    text-decoration: none;
+    color: #00142c;
+    transition: .4s linear;
+}
+.menubar li a:hover{
+    color: #0292c6;
+    transition: .4s linear;
+    
+}
+.menubar li:last-child {
+	background-color: #c8ecf8;
+	padding: 9px 28px;
+	border-radius: 5px;
+    margin-left: 25px;
+    transition: .3s linear;
+}
+.menubar li:last-child:hover{
+    background-color: #0f8ac6;
+    transition: .3s linear;
+    border-bottom: none;
+}
+.menubar li:last-child:hover a{
+    color: white;
+}
+.menubar li:last-child:hover i{
+    /* background-color: #c8ecf8; */
+    /* color: #1f87bc; */
+    transition: .3s linear;
+    border: 1px solid white;
+    color: #c8ecf8;
+}
+.menubar li:last-child a {
+	font-size: 22px;
+	color: #0e7dcc;
+	font-weight: 600;
+}
+.menubar li:last-child i {
+	color: white;
+	font-size: 20px;
+	background-color: #47c3e9;
+	padding: 8px;
+	border-radius: 10px;
+	margin-left: -45px;
+    margin-right: 10px;
+    transition: .3s linear;
+    border: 1px solid transparent;
+}
+
+.banner-part {
+	background: url(1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center 10%;
+	text-align: center;
+	color: white;
+	padding: 175px;
+}
+.banner-part h1 {
+	color: #c8ecf8;
+	margin-bottom: 20px;
+}
+.banner-part p {
+	font-weight: 300;
+	line-height: 28px;
+	/* width: 30%; */
+}
